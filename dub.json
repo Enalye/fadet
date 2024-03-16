@@ -1,0 +1,29 @@
+{
+	"authors": [
+		"enalye"
+	],
+	"copyright": "Copyright © 2024, enalye",
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "fadet",
+    "workingDirectory": ".",
+    "dependencies": {
+        "ciel": {
+            "path": "ciel"
+        }
+    },
+    "configurations": [
+        {
+            "name": "debug",
+            "targetPath": "bin",
+            "targetType": "executable",
+            "targetName": "fadet_debug",
+            "dflags": [
+                "-gf"
+            ],
+            "versions": [
+                "FadetDebug"
+            ]
+        }
+    ]
+}
